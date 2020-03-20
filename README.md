@@ -1,10 +1,10 @@
-# TubeDownloader 🐱‍👤
+# TubeDownloader 🐱‍👤🐱‍🐉
 [![Build Status](https://travis-ci.org/victordpc/TubeDownloader.svg?branch=master)](https://travis-ci.org/victordpc/TubeDownloader)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 TubeDownloader is a Python application to download audio tracks of youtube video.
 
-## Usage 🐱‍🐉
+## Usage 🐱‍💻
 
 ![Kiku](img/app.png)
 
