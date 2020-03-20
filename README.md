@@ -4,18 +4,20 @@
 
 TubeDownloader is a Python application to download audio tracks of youtube video.
 
-## Use 🐱‍💻
-
-### Install
-```python
-pip install TubeDownloader
-```
-### Run
+## Install
+Clone the repo
 
 ```bash
-$ python TubeDownloader
+$ cd TubeDownloader
+$ pip install -r requeriments.txt
 ```
 
+## Run
+```bash
+$ python script.py
+```
+
+## Use 🐱‍💻
 ![Kiku](img/app.png)
 
 * **Input** field `Fichero rutas` expects a file path with one URL per row:.

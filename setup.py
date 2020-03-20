@@ -5,10 +5,10 @@ with open("README2.md", "r") as fh:
 
 setuptools.setup(
     name='TubeDownloader',
-    version='0.1.3',
+    version='0.1.6',
     author='victordpc',
     author_email='victordpc@gmail.com',
-    packages=setuptools.find_packages(),
+    packages=setuptools.find_packages(where='src'),
     license='LGPL v3',
     url='https://github.com/victordpc/TubeDownloader',
     description='Download audio track of youtube video',
@@ -20,4 +20,6 @@ setuptools.setup(
     include_package_data=True,
     zip_safe=True,
     python_requires=">=3.6",
+    package_dir={'': 'src'},
+    install_requires=["typing_extensions"],
 )

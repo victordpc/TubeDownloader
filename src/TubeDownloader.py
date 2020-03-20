@@ -189,7 +189,3 @@ class TubeDownloader():
                 element.config(state='normal')
             else:
                 element.config(state="disabled")
-
-
-if __name__ == "__main__":
-    TubeDownloader()
