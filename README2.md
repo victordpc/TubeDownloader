@@ -13,7 +13,7 @@ pip install TubeDownloader
 ### Run
 
 ```bash
-python TubeDownloader
+$ python TubeDownloader
 ```
 
 * **Input** field `Fichero rutas` expects a file path with one URL per row:

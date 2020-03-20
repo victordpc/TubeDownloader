@@ -13,7 +13,7 @@ pip install TubeDownloader
 ### Run
 
 ```bash
-python TubeDownloader
+$ python TubeDownloader
 ```
 
 ![Kiku](img/app.png)
