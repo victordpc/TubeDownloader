@@ -1,6 +1,7 @@
 # TubeDownloader
 [![Build Status](https://travis-ci.org/victordpc/TubeDownloader.svg?branch=master)](https://travis-ci.org/victordpc/TubeDownloader)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![PyPI version](https://badge.fury.io/py/TubeDownloader.svg)](https://badge.fury.io/py/TubeDownloader)
 
 TubeDownloader is a Python application to download audio tracks of youtube video.
 

@@ -1,10 +1,11 @@
-# TubeDownloader 🐱‍👤🐱‍🐉
+# TubeDownloader 
 [![Build Status](https://travis-ci.org/victordpc/TubeDownloader.svg?branch=master)](https://travis-ci.org/victordpc/TubeDownloader)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![PyPI version](https://badge.fury.io/py/TubeDownloader.svg)](https://badge.fury.io/py/TubeDownloader)
 
 TubeDownloader is a Python application to download audio tracks of youtube video.
 
-## Install
+## Install 🐱‍👤
 Clone the repo
 
 ```bash
@@ -12,7 +13,7 @@ $ cd TubeDownloader
 $ pip install -r requeriments.txt
 ```
 
-## Run
+## Run 🐱‍🐉
 ```bash
 $ python script.py
 ```
@@ -23,7 +24,7 @@ app =tb.TubeDownloader()
 ```
 
 ## Use 🐱‍💻
-![Kiku](img/app.png)
+![App screenshoot](img/app.png)
 
 * **Input** field `Fichero rutas` expects a file path with one URL per row:.
 ```
