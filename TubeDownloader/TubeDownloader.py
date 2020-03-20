@@ -26,7 +26,7 @@ class TubeDownloader():
         self.root = Tk()
 
         self.root.title('TubeDownloader')
-        self.root.iconphoto(True, PhotoImage(file=r'src/img/icon.png'))
+        # self.root.iconphoto(True, PhotoImage(file=r'TubeDownloader/img/icon.png'))
         self.root.resizable(0, 0)
 
         self._create_window(self.root)

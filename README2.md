@@ -17,6 +17,11 @@ $ pip install -r requeriments.txt
 $ python script.py
 ```
 
+```python
+from TubeDownloader import TubeDownloader as tb
+app =tb.TubeDownloader()
+```
+
 ## Use
 * **Input** field `Fichero rutas` expects a file path with one URL per row:
 ```

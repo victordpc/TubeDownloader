@@ -17,6 +17,11 @@ $ pip install -r requeriments.txt
 $ python script.py
 ```
 
+```python
+from TubeDownloader import TubeDownloader as tb
+app =tb.TubeDownloader()
+```
+
 ## Use 🐱‍💻
 ![Kiku](img/app.png)
 
