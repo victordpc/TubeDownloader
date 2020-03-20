@@ -19,17 +19,19 @@ class TubeDownloader():
     Application to store locally web videos.
     '''
 
-    def __init__(self, root):
+    def __init__(self):
         '''
         Constructor
         '''
-        self.root = root
+        self.root = Tk()
 
         self.root.title('TubeDownloader')
         self.root.iconphoto(True, PhotoImage(file=r'src/img/icon.png'))
         self.root.resizable(0, 0)
 
         self._create_window(self.root)
+
+        self.root.mainloop()
 
     def _create_window(self, root):
         '''
@@ -190,6 +192,4 @@ class TubeDownloader():
 
 
 if __name__ == "__main__":
-    root = Tk()
-    TubeDownloader(root)
-    root.mainloop()
+    TubeDownloader()
