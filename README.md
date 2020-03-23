@@ -18,7 +18,7 @@ pip install TubeDownloader
 ```
 
 * ### Executables
-[Download Windows](https://github.com/victordpc/TubeDownloader/releases/download/v0.2.0/TubeDownloader.exe)
+[Download Windows](https://github.com/victordpc/TubeDownloader/releases/download/v0.2.1/TubeDownloader.exe)
 
 ## Run 🐱‍🐉
 ```bash
