@@ -98,8 +98,13 @@ class TubeDownloader():
 
                 if url != '' and self.checkUrl(url):
                     self.download_url(url, target)
+                    self._update_progress(100)
+                    
         finally:
             self.enable(True)
+            self.tb_url.delete(0, cs.END)
+            self.tb_fichero.delete(0,cs.END)
+
 
     def _select_file(self):
         file_path = filedialog.askopenfilename(
@@ -142,6 +147,8 @@ class TubeDownloader():
             best = max(lstst, key=attrgetter('bitrate'))
             best.download(target, filename=self.valid_filename(
                 best.default_filename))
+           
+        
 
     def valid_filename(self, value, allow_unicode=False):
         '''
