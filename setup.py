@@ -5,7 +5,7 @@ with open("README2.md", "r") as fh:
 
 setuptools.setup(
     name='TubeDownloader',
-    version='0.2.0',
+    version='0.2.1',
     author='victordpc',
     author_email='victordpc@gmail.com',
     packages=['TubeDownloader'],
